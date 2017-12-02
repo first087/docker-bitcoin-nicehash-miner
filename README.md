@@ -1,0 +1,1 @@
+# docker-bitcoin-nicehash-miner
