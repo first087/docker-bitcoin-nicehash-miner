@@ -6,3 +6,8 @@ services:
     env_file:
       - ./config.env
     restart: always
+    deploy:
+      mode: global
+      resources:
+        limits:
+          cpus: '0.75'
